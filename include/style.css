@@ -1,0 +1,86 @@
+@font-face {font-family: 'gar';src: url('./fonts/gar.ttf') format('truetype');}
+@font-face {font-family: 'gari';src: url('./fonts/gari.ttf') format('truetype');}
+@font-face {font-family: 'heli';src: url('./fonts/heli.ttf') format('truetype');}
+@font-face {font-family: 'hell';src: url('./fonts/hell.ttf') format('truetype');}
+@font-face {font-family: 'helbold';src: url('./fonts/helbold.ttf') format('truetype');}
+
+
+.gh1i{font-family:gari;font-weight:normal;font-size:60;}
+body {margin:0;}
+.gh1{font-family:gar;font-weight:normal;font-size:60;line-height:1.4}
+body {margin:0;}
+.hh1i{font-family:heli;font-weight:normal;font-size:29;line-height:1.4}
+body {margin:0;}
+.hh1{font-family:hell;font-weight:normal;font-size:29;line-height:1.4}
+body {margin:0;}
+
+.gpi{font-family:gari;font-weight:normal;font-size:21;line-height:1.4}
+body {margin:0;}
+.gp{font-family:gar;font-weight:normal;font-size:21;line-height:1.4}
+body {margin:0;}
+.hpi{font-family:heli;font-weight:normal;font-size:10;line-height:1.4}
+body {margin:0;}
+.hp{font-family:hell;font-weight:normal;font-size:10;line-height:1.4}
+body {margin:0;}
+.ext{font-family:helbold;font-weight:normal;font-size:10;color: #070707;line-height:1.4}
+body {margin:0;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logocontainer {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+
+    width: 96px;
+    margin-top: 12px;  
+}
+
+.main {
+  padding-left: 400px;
+  padding-top: 28px;
+  padding-right: 400px;
+  margin-top: 30px;
+  height: 100%; /* Used in this example to enable scrolling */
+}
+
+@media only screen and (max-width: 1200px) {
+  .main {
+  padding-left: 200px;
+  padding-top: 28px;
+  padding-right: 200px;
+  height: 100%;
+}
+}
+@media only screen and (max-width: 800px) {
+  .main {
+  padding-left: 45px;
+  padding-top: 28px;
+  padding-right: 45px;
+  height: 100%;
+}
+}
+.hideme
+{
+    opacity:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
